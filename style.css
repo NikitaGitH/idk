@@ -1,0 +1,322 @@
+body{
+    background-color: rgb(77,77,69);
+    background-image: url("img/Background\ \(1\).png");
+    background-position: calc(-15px);
+    background-repeat: no-repeat;
+    margin: 0;
+}
+.h{
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;   
+    align-items: flex-end;     
+}
+.logo_img{
+    width: 50px;
+    height: 50px;
+    background-image: url("img/Слой\ 2.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    margin: auto;
+}
+.logo{
+    margin-left: 10%;
+}
+.logo_text{
+    color: white;
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+}
+.logo_slogan{
+    font-size: 16px;
+    color: white;
+    font-weight: lighter;
+    text-align: center;
+}
+.nav{
+    width: 55%;
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+}
+.nav_li_url{
+    color: white;
+    text-decoration: none;
+    font-size: 24px;
+}
+.nav_li_url:hover{
+    color: gainsboro;
+}
+.nav_search{
+    background-color: white;
+    width:  40%;
+    height: 40px;
+    border-radius: 30px;
+    margin-top: -5px;
+    background-image: url("img/Папка\ 1.png");
+    background-repeat: no-repeat;
+    background-position: calc(95%);
+    text-align: center;
+    font-size: 20px;
+}
+.info{
+    margin-top: 150px;
+    padding-left: 200px;
+    display: flex;
+    justify-content: space-between;
+}
+.leaf{
+    background-image: url(img/png-transparent-leaf-graphy-branch-desktop-leaf-botany-leaf-photography\ copy\ 3\ \(1\).png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    width: 200px;
+    height: 200px;
+    margin-left: -200px;
+    margin-top: -200px;
+}
+.bigImg{
+    background-color: rgb(92, 92, 83);
+    width: 420px;
+    height: 420px;
+    border-radius: 50%;
+}
+.infoPart{
+    width: 200px;
+    height: 200px;
+    background-color: rgb(209,154,74);
+    border-radius: 50%;
+    font-size: 11px;
+    color: rgb(77,77,69);
+    margin-top: -120px;
+    margin-left: 280px;
+    padding: 30px;
+}
+.hidr{
+    width: 200px;
+    text-align: left;
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+.hidr_img{
+    background-image: url("img/Слой\ 3.png");
+    width: 100px;
+    height: 70px;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.hidr_text{
+    width: 140px;
+}
+.hidr_text_p{
+    padding: 0px;
+    margin: 0px;
+    font-weight: bold;
+}
+.wr{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    text-align: left;
+    width: 200px;
+}
+.wr_img{
+    background-image: url("img/Слой\ 4.png");
+    width: 100px;
+    height: 70px;
+    background-position: center;
+    background-repeat: no-repeat; 
+}
+.wr_text{
+    width: 140px;
+}
+.wr_text_p{
+    padding: 0px;
+    margin: 0px;
+    font-weight: bold;
+}
+.nature{
+    color: white;
+    width: 825px;
+}
+.nature_title{
+    font-size: 150px;
+    font-weight: 1000;
+    height: 200px;
+    text-transform: uppercase;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: -50px;
+    text-align: center;
+}
+.nature_p{
+    margin: 0px;
+    padding: 0px;
+    /* background-image: url('img/png-transparent-leaf-graphy-branch-desktop-leaf-botany-leaf-photography.png');
+    background-position: center;
+    background-repeat: no-repeat; */
+}
+.nature_text{
+    display: flex;
+    justify-content: space-evenly;
+}
+.nature_text_relax{
+    font-size: 77px;
+    font-weight: bold;
+    text-align: right;
+    padding-right: 30px;
+    margin-top: -20px;
+    border-right: 5px solid rgb(138, 138, 58);
+    line-height: 1;
+    width: 200px;
+}
+.nature_text_lorem{
+    font-size: 24px;
+    text-align: left;
+    width: 400px;
+}
+.nature_btn{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    width: 320px;
+    display: block;
+    text-align: center;
+    padding: 20px;
+    text-transform: uppercase;
+    color: rgb(77,77,69);
+    font-size: 34px;
+    background-color: rgb(209,154,74);
+    border-radius: 70px;
+    text-decoration: none;
+}
+.nature_social{
+    display: flex;
+    justify-content: space-around;
+    width: 50%;
+    font-size: 22px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+}
+.nature_social_facebook{
+    display: flex;
+}
+.nature_social_facebook_a{
+    display: block;
+    text-decoration: none;    
+    color: white;
+}
+.nature_social_facebook_img{
+    background-image: url(img/форма\ 7.png);
+    background-repeat: no-repeat;
+    width: 30px;
+    height: 30px;
+    background-position: center;
+    padding-right: 10px;
+}
+.nature_social_instagram{
+    display: flex;
+}
+.nature_social_instagram_a{
+    display: block;
+    text-decoration: none;    
+    color: white;
+}
+.nature_social_instagram_img{
+    background-image: url(img/png-transparent-computer-icons-logo-instagram-instagram-rectangle-photography-social-media-marketing.png);
+    background-repeat: no-repeat;
+    width: 30px;
+    height: 30px;
+    background-position: center;
+    padding-right: 10px;
+}
+.ender{
+    margin-top: 20px;
+}
+.ender_text{
+    color: rgb(77,77,69);
+    font-size: 12px;
+    width: 400px;
+    margin-left: -150px;
+}
+
+@media (max-width: 1445px) {
+    .nav_search{
+        display: none;
+    }
+    .nature{
+        width: 400px;
+    }
+    .nature_title{
+        font-size: 80px;
+        height: auto;
+        margin: 0;
+    }
+    .nature_text_relax{
+        font-size: 50px;
+    }
+    .nature_text{
+        margin-top: 10px;
+    }
+    .nature_text_lorem{
+        font-size: 20px;
+        width: 80%;
+        margin-left: 10px;
+    }
+    .nature_social{
+        width: 100%;
+    }
+}
+@media (max-width: 1200px){
+    .info{
+        display: block;
+        padding: 0;
+        margin-top: 20px;
+        background-position: 0, 0;
+    }
+    .imgs{
+        background-color: rgb(197,194,96);
+        padding: 20px;
+        border-radius: 6px;
+    }
+    .leaf{
+        display: none;
+    }
+    body{
+        background-image: none;
+    }
+    .nature{
+        margin: auto;
+    }
+    .bigImg{
+        margin: auto;
+    }
+    .infoPart{
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .ender{
+        background-color: rgb(197,194,96);
+        padding: 10px;
+        border-radius: 6px;
+        text-align: center;
+    }
+    .ender_text{
+        margin: auto;
+    }
+    .h{
+        display: block;
+    }
+    .nav{
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 10px;
+        padding: 0;
+        width: 100%;
+    }
+    .logo{
+        margin: auto;
+    }
+}
